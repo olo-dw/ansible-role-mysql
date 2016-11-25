@@ -12,5 +12,5 @@
       changed_when: false
 
   roles:
-    - role_under_test
-    mysql_version: '5.6'
+    - role: role_under_test
+      mysql_version: '5.6'
